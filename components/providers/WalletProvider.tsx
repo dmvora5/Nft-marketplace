@@ -35,11 +35,11 @@ const WalletProvider = ({children}: { children: React.ReactNode }) => {
         trustWallet(),
       ]}
     >
-      <ConnectWallet
+      {/* <ConnectWallet
         theme={"dark"}
         switchToActiveChain={true}
         modalSize={"wide"}
-      />
+      /> */}
       {children}
     </ThirdwebProvider>
   );
